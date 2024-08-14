@@ -1,0 +1,21 @@
+{
+  "name": "mobyscript-dark",
+  "displayName": "MobyScript Dark",
+  "description": "MobyScript's VSCODE theme !",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.92.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MobyScript Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/MobyScript Dark-color-theme.json"
+      }
+    ]
+  }
+}
