@@ -2,7 +2,7 @@
   "name": "mobyscript-dark",
   "displayName": "MobyScript Dark",
   "description": "MobyScript's VSCODE theme !",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "mobyscript",
   "repository": {
     "type": "git",
@@ -32,6 +32,7 @@
     ]
   },
   "dependencies": {
+    "@vscode/vsce": "^2.32.0",
     "mobyscript-dark": "file:"
   }
 }
