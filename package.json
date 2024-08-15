@@ -1,8 +1,8 @@
 {
   "name": "mobyscript-dark",
   "displayName": "MobyScript Dark",
-  "description": "MobyScript's VSCODE theme !",
-  "version": "0.0.3",
+  "description": "MobyScript's VSCODE theme for Light and Dark !",
+  "version": "0.0.4",
   "publisher": "mobyscript",
   "repository": {
     "type": "git",
@@ -28,6 +28,11 @@
         "label": "MobyScript Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/MobyScript Dark-color-theme.json"
+      },
+      {
+        "label": "MobyScript Light",
+        "uiTheme": "vs",
+        "path": "./themes/MobyScript-Light-color-theme.json"
       }
     ]
   },
