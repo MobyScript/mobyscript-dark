@@ -1,4 +1,10 @@
-# mobyscript-dark README
+# MobyScript Dark README
+
+## MobyScript Dark Theme
+
+Here’s a preview of the MobyScript Dark theme in action:
+
+![MobyScript Dark Theme in Action](./assets/mobyscript-dark-preview.gif)
 
 ## Working with Markdown
 
