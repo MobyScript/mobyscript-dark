@@ -1,27 +1,33 @@
 {
 	"name": "MobyScript Dark",
 	"$schema": "vscode://schemas/color-theme",
-    "name": "Dark Default Colors",
   "colors": {
-		"activityBar.background": "#000000",
+		"activityBar.background": "#0e0e0e",
+        "activityBarBadge.background": "#FF0000",
+        "activityBarBadge.foreground": "#FFFFFF",
+        "statusBarItem.prominentBackground": "#FF0000",
 		"activityBar.border": "#2f0101",
-		"sideBar.background": "#000000",
+		"sideBar.background": "#0e0e0e",
 		"sideBar.border": "#570101",
-		"menu.background": "#000000",
-		"tab.activeBackground": "#000000",
-		"tab.activeBorder": "#e30000",
-		"tab.border": "#000000",
-		"tab.inactiveBackground": "#000000",
-		"editor.background": "#000000",
+        "menu.background": "#000000",
+		"tab.border": "#0e0e0e",
+		"tab.activeBorder": "#bb0000",
+		"tab.activeBackground": "#170000",
+		"tab.inactiveBackground": "#0e0e0e",
 		"titleBar.activeBackground": "#000000",
+		"editor.background": "#0e0e0e",
 		"editorGroupHeader.tabsBackground": "#000000",
 		"statusBar.background": "#000000",
-		"tab.hoverBackground": "#610101",
+		"tab.hoverBackground": "#32000055",
 		"editorGroupHeader.tabsBorder": "#151515",
 		"editor.lineHighlightBorder": "#0f0f0f",
-		"editorIndentGuide.background": "#1b0000",
-		"editorIndentGuide.activeBackground": "#ff0000",
-		"statusBar.border": "#101010"
+        "sideBarSectionHeader.background": "#2d0000", // Background color of section headers in the sidebar
+        "sideBarSectionHeader.foreground": "#FFFFFF",  // Foreground color of section headers in the sidebar
+		"editorIndentGuide.background1": "#1b0000",
+		"editorIndentGuide.activeBackground1": "#ff0000",
+		"statusBar.border": "#101010",
+         "tree.indentGuidesStroke": "#590101"
+        
 	},
 	"tokenColors": [
         {
@@ -31,6 +37,15 @@
             ],
             "settings": {
                 "foreground": "#D4D4D4"
+            }
+        },
+        {
+            "scope": [
+                "",
+                "source.groovy.embedded"
+            ],
+            "settings": {
+                "foreground": "#ff0000"
             }
         },
         {
@@ -54,7 +69,7 @@
         {
             "scope": "comment",
             "settings": {
-                "foreground": "#6A9955"
+                "foreground": "#b8a83f"
             }
         },
         {
@@ -68,9 +83,10 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#b5cea8"
+                "foreground": "#7abef3"
             }
         },
+        
         {
             "scope": "constant.regexp",
             "settings": {
@@ -80,19 +96,37 @@
         {
             "scope": "entity.name.tag",
             "settings": {
-                "foreground": "#569cd6"
+                "foreground": "#ef1e4f"
+            }
+        },
+        {
+            "scope": "entity.name.function",
+            "settings": {
+                "foreground": "#f0668b"
+            }
+        },
+        {
+            "scope": "variable.parameter",
+            "settings": {
+                "foreground": "#f0668b"
+            }
+        },
+        {
+            "scope": "variable.other.readwrite",
+            "settings": {
+                "foreground": "#af9804"
             }
         },
         {
             "scope": "entity.name.tag.css",
             "settings": {
-                "foreground": "#d7ba7d"
+                "foreground": "#ad7b10"
             }
         },
         {
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#9cdcfe"
+                "foreground": "#69a6eb"
             }
         },
         {
@@ -170,7 +204,7 @@
         {
             "scope": "punctuation.definition.list.begin.markdown",
             "settings": {
-                "foreground": "#6796e6"
+                "foreground": "#ec5b5b"
             }
         },
         {
@@ -183,7 +217,7 @@
             "name": "brackets of XML/HTML tags",
             "scope": "punctuation.definition.tag",
             "settings": {
-                "foreground": "#fbfbfb"
+                "foreground": "#e87676"
             }
         },
         {
@@ -225,9 +259,10 @@
         {
             "scope": "storage.type",
             "settings": {
-                "foreground": "#569cd6"
+                "foreground": "#ef2323"
             }
         },
+     
         {
             "scope": "storage.modifier",
             "settings": {
@@ -237,7 +272,7 @@
         {
             "scope": "string",
             "settings": {
-                "foreground": "#ce9178"
+                "foreground": "#ce788f"
             }
         },
         {
@@ -288,7 +323,7 @@
                 "source.coffee.embedded"
             ],
             "settings": {
-                "foreground": "#9cdcfe"
+                "foreground": "#d45555"
             }
         },
         {
@@ -300,13 +335,13 @@
         {
             "scope": "keyword.control",
             "settings": {
-                "foreground": "#569cd6"
+                "foreground": "#c72b2b"
             }
         },
         {
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#dcd105"
             }
         },
         {
