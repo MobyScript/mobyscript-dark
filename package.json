@@ -3,6 +3,18 @@
   "displayName": "MobyScript Dark",
   "description": "MobyScript's VSCODE theme !",
   "version": "0.0.1",
+  "publisher": "mobyscript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mobyscript/mobyscript-dark"
+  },
+  "keywords": [
+    "theme",
+    "dark",
+    "mobyscript",
+    "vscode",
+    "mobyscript dark"
+  ],
   "engines": {
     "vscode": "^1.92.0"
   },
@@ -17,5 +29,8 @@
         "path": "./themes/MobyScript Dark-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "mobyscript-dark": "file:"
   }
 }
