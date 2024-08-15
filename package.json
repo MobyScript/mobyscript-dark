@@ -2,13 +2,13 @@
   "name": "mobyscript-dark",
   "displayName": "MobyScript Dark",
   "description": "MobyScript's VSCODE theme !",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "mobyscript",
   "repository": {
     "type": "git",
     "url": "https://github.com/mobyscript/mobyscript-dark"
   },
-  "icon": "./assets/icon.jpg",
+  "icon": "assets/icon.jpg",
   "keywords": [
     "theme",
     "dark",
