@@ -45,7 +45,7 @@
                 "source.groovy.embedded"
             ],
             "settings": {
-                "foreground": "#ff0000"
+                "foreground": "#e0d4d4"
             }
         },
         {
